@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newTask {
+  gap: 0.5rem;
+  margin: -1.7rem 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newTask textarea {
+  width: 100%;
+  background: var(--gray-500);
+  resize: none;
+  border: 0;
+  border-radius: 8px;
+}
