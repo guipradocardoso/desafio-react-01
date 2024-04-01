@@ -1,21 +1,32 @@
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.newTask {
-  gap: 0.5rem;
-  margin: -1.7rem 0 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.newTask textarea {
+.content {
+  max-width: 46rem;
   width: 100%;
-  background: var(--gray-500);
-  resize: none;
-  border: 0;
-  border-radius: 8px;
+
+  margin: 0 auto;
+}
+
+.taskInfoContainer {
+  display: flex;
+  flex: 1;
+
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.taskInfoContainer input, .taskInfoContainer button {
+  transform: translateY(-50%);
+
+  margin-bottom: 2.3125rem;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.taskList > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
