@@ -3,7 +3,7 @@ import rocketLogo from '../assets/rocket.svg';
 
 export function Header() {
   return (
-    <header className={styles.header}>
+    <header className={styles.container}>
       <img src={rocketLogo} alt="Logotipo de um foguete" />
       <div>
         <span className={styles.firstColor}>to</span>

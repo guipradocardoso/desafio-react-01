@@ -1,17 +1,18 @@
-.header {
+.container {
   background: var(--gray-700);
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
   padding: 4.5rem 0 5rem 0;
   gap: 0.75rem;
 }
 
-.header img {
+.container img {
   margin: 0.625rem 0 0.125rem;
 }
 
-.header span {
+.container span {
   margin: 0.625rem 0 0.125rem  ;
   font-size: 2.5rem;
   font-weight: 700;
